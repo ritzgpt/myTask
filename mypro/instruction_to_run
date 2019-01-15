@@ -1,0 +1,23 @@
+To run application :
+
+1- import the project in eclipse (import as  maven project)
+2- right click on project and maven->update
+3- right click on project run->configuration
+4- A window will pop up : 
+	*-write in goal as: tomcat7:run 
+	*-give name to your configuration
+	*-Apply and save
+5- right click on project run->maven install
+6- run your configuration
+
+To run jmx file in Jmeter:
+
+1- put the .jmx file in bin folder of jmeter
+2- duble click on jmeter.bat for windows
+3- a window will open. Here, open the test plan and run the 
+   "/update" request
+   
+It requires that table name "numbers" needs to be present in database having one column of integer type "val_int"
+
+Java Doc is present in project doc folder
+
